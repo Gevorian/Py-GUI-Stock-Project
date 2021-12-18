@@ -1,0 +1,28 @@
+{
+    "Stock": [
+        {
+            "symbol": "GEV",
+            "name": "Gevorian",
+            "shares": 1000.0,
+            "DataList": []
+        },
+        {
+            "symbol": "STE",
+            "name": "Steve",
+            "shares": 1000.0,
+            "DataList": []
+        },
+        {
+            "symbol": "MSFT",
+            "name": "Microsoft",
+            "shares": 56.0,
+            "DataList": []
+        },
+        {
+            "symbol": "STE",
+            "name": "Steve",
+            "shares": 1000.0,
+            "DataList": []
+        }
+    ]
+}
