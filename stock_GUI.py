@@ -202,13 +202,23 @@ class StockApp:
     
     # Display stock price chart.
     def display_chart(self):
-        messagebox.showinfo("This module is under construction") 
-
-
-
-        
-    
-    
+        symbol = self.stockList.get(self.stockList.curselection())
+        date = []
+        price = []
+        volume = []
+        company = ""
+        for stock in self.stock_list:
+            if stock.symbol == symbol:
+                company = stock.name
+                for dailyData in stock.DataList:
+                    date.append(dailyData.date)
+                    price.append(dailyData.close)
+                    volume.append(dailyData.volume)
+                plt.plot(date,price)
+                plt.xlabel('Date')
+                plt.ylabel('Price')
+                plt.title(company)
+                plt.show()
 
 def main():
         app = StockApp()
