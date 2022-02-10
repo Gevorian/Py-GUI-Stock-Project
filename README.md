@@ -1,4 +1,4 @@
-# CEIS-150-Project
+# Py GUI Stock Project
 
 # Anthony Mosqueda
 
