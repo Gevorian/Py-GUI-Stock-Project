@@ -2,4 +2,4 @@
 
 # Anthony Mosqueda
 
-Course Project for CEIS 150 - Programming With Objects
+Py GUI Stock Project
